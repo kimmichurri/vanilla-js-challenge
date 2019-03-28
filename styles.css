@@ -1,0 +1,58 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.manage-photos {
+  background-color: #3E2A35;
+  text-align: center;
+}
+
+label {
+  display: flex;
+}
+
+.submission-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 60%
+}
+
+.choose-file {
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.search-input {
+  height: 20px;
+  width: 200px;
+}
+
+.upload {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: black;
+    background-color: black;
+    display: inline-block;
+}
+
+.add-or-favorite-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-photos {
+  background-color: #C2B2B4;
+  height: 100px;
+}

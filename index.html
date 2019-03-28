@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FotoFinder</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <section class="manage-photos">
-      <header>
+      <header class="header">
         <h1>FotoFinder</h1>
         <label for="search">Search</label>
-        <input type="text" name="search"/>
+        <input type="text" name="search"  class="search-input"/>
       </header>
-      <form>
+      <form class="submission-form">
         <label for="title">Title</label>
         <input type="text" name ="title"/>
         <label for="caption">Caption</label>
         <input type="text" name="caption" />
-        <button>Choose File</button>
-        <span>
+        <label for="file" class="upload"></label>
+        <input type="file" name="file" class="choose-file"/>
+        <span class="add-or-favorite-button">
           <button>View Favorites</button>
           <button>Add to Album</button>
         </span>
