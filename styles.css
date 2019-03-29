@@ -25,27 +25,41 @@ label {
   width: 60%
 }
 
-.choose-file {
+/* .choose-file {
   width: 0.1px;
 	height: 0.1px;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
-	z-index: -1;
-}
+  z-index: -1;
+} */
 
 .search-input {
   height: 20px;
   width: 200px;
 }
 
-.upload {
-    font-size: 1.25em;
-    font-weight: 700;
-    color: black;
-    background-color: black;
+.upload,
+.fave-button,
+.add-button {
+    font-size: 14px ;
+    color: #FFF;
+    background-color: #5B4447;
     display: inline-block;
+    margin: 20px 0px;
 }
+
+.upload:hover,
+.fave-button:hover,
+.add-button:hover {
+  background-color: #938284;
+}
+
+.upload label {
+  cursor: pointer;
+  padding: 20px 50px;
+}
+
 
 .add-or-favorite-button {
   display: flex;
