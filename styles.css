@@ -34,22 +34,24 @@ label {
   z-index: -1;
 } */
 
-.search-input {
+/* .search-input {
   height: 20px;
   width: 200px;
-}
+} */
 
 .upload,
+/* .fave-button, */
 .add-button {
-    border: none;
-    font-size: 14px ;
-    color: #FFF;
-    background-color: #5B4447;
-    display: inline-block;
-    margin: 20px 0px;
+  background-color: #5B4447;
+  border: none;
+  color: #FFF;
+  display: inline-block;
+  font-size: 14px ;
+  margin: 20px 0px;
 }
 
 .upload:hover,
+/* .fave-button:hover, */
 .add-button:hover {
   background-color: #938284;
 }
@@ -60,9 +62,10 @@ label {
 }
 
 
-.add-or-favorite-button {
-  text-align: center;
-}
+/* .add-or-favorite-button {
+  display: flex;
+  justify-content: space-between;
+} */
 
 /* PHOTO GALLERY SECTION */
 
@@ -87,10 +90,6 @@ label {
 .unique-post p {
   height: 20px;
   margin: 0px;
-}
-
-.post-text {
-  color: rebeccapurple;
 }
 
 .photo-interactive-container {
