@@ -34,13 +34,9 @@ label {
   z-index: -1;
 } */
 
-/* .search-input {
-  height: 20px;
-  width: 200px;
-} */
+
 
 .upload,
-/* .fave-button, */
 .add-button {
   background-color: #5B4447;
   border: none;
@@ -51,7 +47,6 @@ label {
 }
 
 .upload:hover,
-/* .fave-button:hover, */
 .add-button:hover {
   background-color: #938284;
 }
@@ -60,12 +55,6 @@ label {
   cursor: pointer;
   padding: 20px 50px;
 }
-
-
-/* .add-or-favorite-button {
-  display: flex;
-  justify-content: space-between;
-} */
 
 /* PHOTO GALLERY SECTION */
 
