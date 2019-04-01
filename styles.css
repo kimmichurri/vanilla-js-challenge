@@ -40,8 +40,8 @@ label {
 }
 
 .upload,
-.fave-button,
 .add-button {
+    border: none;
     font-size: 14px ;
     color: #FFF;
     background-color: #5B4447;
@@ -50,7 +50,6 @@ label {
 }
 
 .upload:hover,
-.fave-button:hover,
 .add-button:hover {
   background-color: #938284;
 }
@@ -62,11 +61,46 @@ label {
 
 
 .add-or-favorite-button {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
 }
+
+/* PHOTO GALLERY SECTION */
 
 .display-photos {
   background-color: #C2B2B4;
-  height: 100px;
+  height: 100vh;
+  padding: 20px;
+}
+
+/* UNIQUE PHOTO POSTS */
+
+.unique-post {
+  background-color: #FFF;
+  width: 200px;
+}
+
+.unique-post img {
+  width: 100%;
+  margin: 0px;
+}
+
+.unique-post p {
+  height: 20px;
+  margin: 0px;
+}
+
+.post-text {
+  color: rebeccapurple;
+}
+
+.photo-interactive-container {
+  background-color: #5B4447;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.photo-interactive-container img {
+  padding: 10px;
+  width: 30px;
 }
