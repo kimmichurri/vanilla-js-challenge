@@ -5,12 +5,15 @@ body {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Berkshire Swash', cursive;
 }
 
 .manage-photos {
-  background-color: #3E2A35;
+  background-color: #FFF;
   text-align: center;
 }
 
@@ -38,9 +41,10 @@ label {
 
 .upload,
 .add-button {
-  background-color: #5B4447;
+  background-color: #d3d3d3;
   border: none;
-  color: #FFF;
+  border-radius: 4px;
+  color: #300948;
   display: inline-block;
   font-size: 14px ;
   margin: 20px 0px;
@@ -48,7 +52,7 @@ label {
 
 .upload:hover,
 .add-button:hover {
-  background-color: #938284;
+  background-color: #939393;
 }
 
 .upload label {
@@ -59,16 +63,18 @@ label {
 /* PHOTO GALLERY SECTION */
 
 .display-photos {
-  background-color: #C2B2B4;
-  height: 100vh;
-  padding: 20px;
+  /* background-color: #e9e9e9; */
+  background-color: #FFF;
+  height: 100%;
 }
 
 /* UNIQUE PHOTO POSTS */
 
 .unique-post {
   background-color: #FFF;
+  border: 2px solid #d3d3d3;
   width: 200px;
+  margin: 30px 20px;
 }
 
 .unique-post img {
@@ -82,7 +88,7 @@ label {
 }
 
 .photo-interactive-container {
-  background-color: #5B4447;
+  background-color: #d3d3d3;
   display: flex;
   height: 60px;
   justify-content: space-between;
